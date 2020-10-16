@@ -17,10 +17,10 @@ $text-color:black;
 $bg-color: white;
 $card-bg-color: linear-gradient(
   145deg,
-  rgba(115, 115, 115, 0.15) 15%,
-  rgba(43, 45, 47, 1) 80%
+  #FF97CC 15%,
+  #5C568A 80%
 );
-$primary-color: #ff073a;
+$primary-color:#2FB4A0;
 
 /* General */
 
@@ -107,21 +107,13 @@ a {
 }
 
 .neumorphism-button {
-  background: linear-gradient(
-    145deg,
-    rgba(100, 100, 105, 0.15) 15%,
-    rgba(33, 33, 33, 0.4) 80%
-  );
+  background: #80C599;
   box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
     4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 @mixin neumorphism-button-pressed {
-  background: linear-gradient(
-    150deg,
-    rgba(20, 20, 20, 0.4) 10%,
-    rgba(115, 115, 115, 0.15) 80%
-  );
+  background: #FFDD95;
   box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
     -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
     inset -1px -2px 2px rgba(210, 210, 210, 0.4);
